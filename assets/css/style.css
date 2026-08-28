@@ -411,7 +411,7 @@
   .ach-list li::before{ content:"\2022  "; color:var(--text-light); }
 
   .p2-footer{
-    margin-top: 2mm;
+    margin-top: 15mm;
     background:var(--sidebar-bg);
     border-radius:8mm 8mm 0 0;
     text-align:center;
@@ -476,16 +476,16 @@
     border: none;
 }
 
-/* برای نمایش سایت به صورت کامل در صفحه مک */
+
 .screen-content iframe {
     width: 1920px;
     height: 1080px;
-    transform: scale(0.15); /* بستگی به اندازه صفحه مک دارد */
+    transform: scale(0.15); 
     transform-origin: 0 0;
     border: none;
 }
 
-/* نسخه ریسپانسیو */
+
 @media (max-width: 768px) {
     .macbook-mockup {
         width: 100%;
