@@ -492,3 +492,24 @@
         max-width: 600px;
     }
 }
+
+.no-print {
+    position: fixed;
+    background: #e7e8e8;
+    padding: 5px 5px 5px 10px;
+    border-radius: 0 10px 10px  0;
+    top: 30px;
+    left: -45px;
+    transition: 1ms all easeout;
+    transition: all .5s ease-out;
+    display: flex;
+    
+    align-items: center;
+    justify-content: center;
+    gap: 7px;
+    color: #1c274c;
+    cursor:pointer;
+}
+.no-print:hover {
+    left: -1px;
+}
